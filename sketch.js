@@ -34,7 +34,7 @@ function setup() {
 }
 
 function mousePressed() {
-  if (song.isPlaying()) {
+  if not (song.isPlaying()) {
     // .isPlaying() returns a boolean
     song.stop();
 
