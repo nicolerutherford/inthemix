@@ -49,7 +49,7 @@ function draw() {
   c +=1;
   c = c%360;
 
-  background(0, 0, 0);
+  
   balls.forEach(ball => {
     ball.collide();
     ball.move();
