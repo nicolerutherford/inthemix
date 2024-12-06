@@ -36,10 +36,10 @@ function setup() {
 function mousePressed() {
   if (song.isPlaying()) {
     
-    song.play();
+    song.stop();
 
   } else {
-    song.stop();
+    song.play();
   }
 }
 
