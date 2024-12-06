@@ -34,12 +34,12 @@ function setup() {
 }
 
 function mousePressed() {
-  if not (song.isPlaying()) {
-    // .isPlaying() returns a boolean
-    song.stop();
+  if (song.isPlaying()) {
+    
+    song.play();
 
   } else {
-    song.play();
+    song.stop();
   }
 }
 
